@@ -1,0 +1,60 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/user",
+    "pages/tips/tips",
+    "pages/sale/sale",
+    "pages/buy/buy"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "@navBgColor",
+    "navigationBarTitleText": "邱英配",
+    "navigationBarTextStyle":"@navTxtStyle",
+    "navigationStyle":"default",
+    "backgroundColor":"@bgColor",
+    "backgroundColorTop":"@bgColor",
+    "backgroundColorBottom":"@bgColor",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 0,
+    "pageOrientation":"auto"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./images/index.png",
+      "selectedIconPath": "./images/index_active.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "用户",
+      "iconPath": "./images/user.png",
+      "selectedIconPath": "./images/user_active.png"
+    },
+    {
+      "pagePath": "pages/tips/tips",
+      "text": "发票",
+      "iconPath": "./images/tips.png",
+      "selectedIconPath": "./images/tips_active.png"
+    },
+    {
+      "pagePath": "pages/sale/sale",
+      "text": "销售",
+      "iconPath": "./images/sale.png",
+      "selectedIconPath": "./images/sale_active.png"
+    },
+    {
+      "pagePath": "pages/buy/buy",
+      "text": "采购",
+      "iconPath": "./images/buy.png",
+      "selectedIconPath": "./images/buy_active.png"
+    }
+  ],
+  "selectedColor":"#1ab5ef"
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "darkmode": true,
+  "themeLocation": "theme.json"
+}

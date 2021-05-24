@@ -1,0 +1,4 @@
+<!--pages/tips/tips.wxml-->
+<view class="container">
+    发票抬头
+</view>

@@ -1,0 +1,4 @@
+<!--pages/buy/buy.wxml-->
+<view class="container">
+ 采购
+</view>

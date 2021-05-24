@@ -1,0 +1,12 @@
+/* 正常下应用的样式 */
+ page{
+    background: #cca4e3;
+    color: #ffffff;
+}
+ 
+/* 暗黑模式下应用的样式 */
+ @media (prefers-color-scheme: dark) {
+    page{
+      background: #1ab5ef;
+    }
+  } 

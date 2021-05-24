@@ -1,0 +1,4 @@
+<!--pages/sale/sale.wxml-->
+<view class="container">
+    销售
+</view>
